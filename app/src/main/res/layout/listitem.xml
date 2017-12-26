@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:id="@+id/Thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        />
+
+    <TextView
+        android:id="@+id/FilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:paddingTop="@dimen/listitem_text_padding"
+        android:paddingBottom="@dimen/listitem_text_padding"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_margin="0dp"
+        android:textSize="@dimen/listitem_day_font_size"
+        android:includeFontPadding="false"
+        />
+</RelativeLayout>

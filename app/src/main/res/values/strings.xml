@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WallByDay</string>
+    <string name="hello_world">Hello Test!</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_text">item_text</string>
+    <string name="item_image">item_image</string>
+    <string name="title_activity_activity_view_image">Wallpaper</string>
+    <string name="title_activity_activity_settings">Settings</string>
+    <string name="settings_no_resize">No Resize</string>
+    <string name="settings_stretch">Stretch</string>
+    <string name="settings_fit_width">Fit to width</string>
+    <string name="settings_fit_height">Fit to height</string>
+    <string name="checkbox_enable">Turn On</string>
+    <string name="about">About</string>
+</resources>

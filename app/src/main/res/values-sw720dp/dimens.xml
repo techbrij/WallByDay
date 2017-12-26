@@ -1,0 +1,9 @@
+<resources>
+    <!--
+    values sw600dp means smallest width 720 dp (means using for tablets)
+    For 10” tablets (800x1280)
+    http://android-developers.blogspot.in/2011/07/new-tools-for-managing-screen-sizes.html
+     -->
+    <dimen name="listitem_spacing">5dp</dimen>
+    <dimen name="gridview_padding">5dp</dimen>
+</resources>
